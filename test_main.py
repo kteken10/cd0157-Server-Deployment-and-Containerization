@@ -8,7 +8,7 @@ import pytest
 import main
 
 SECRET = 'TestSecret'
-TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjEzMDY3OTAsIm5iZiI6MTU2MDA5NzE5MCwiZW1haWwiOiJ3b2xmQHRoZWRvb3IuY29tIn0.IpM4VMnqIgOoQeJxUbLT-cRcAjK41jronkVrqRLFmmk'
+TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njk3MzMwODgsIm5iZiI6MTY2ODUyMzQ4OCwiZW1haWwiOiJ3b2xmQHRoZWRvb3IuY29tIn0.-Jk38SEg7IqIrs5mKC-JYHp4-gpZYfYNcCi3udP8Bmo'
 EMAIL = 'wolf@thedoor.com'
 PASSWORD = 'huff-puff'
 
