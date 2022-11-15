@@ -324,8 +324,6 @@ Resources:
             Value: !Ref EksClusterName
           - Name: EKS_KUBECTL_ROLE_ARN
             Value: !Sub arn:aws:iam::${AWS::AccountId}:role/${KubectlRoleName}
-          - Name: EKS_PROFILE
-            Value: !Sub arn:aws:iam::${AWS::AccountId}:profile
         PrivilegedMode: true
       Name: !Ref AWS::StackName
       ServiceRole: !GetAtt CodeBuildServiceRole.Arn
